@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global customizations */
+body {
+  @apply bg-zinc-700 text-textDark font-sans;
+}
+
+/* Button Styles */
+.btn {
+  @apply px-4 py-2 rounded text-white font-bold transition-all;
+}
+
+.btn-green {
+  @apply bg-greenPrimary hover:bg-green-600;
+}
+
+.btn-blue {
+  @apply bg-bluePrimary hover:bg-blue-600;
+}
+
+.btn-red {
+  @apply bg-red-500 hover:bg-red-600;
+}
+
+/* Form Input Styles */
+.input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-bluePrimary focus:outline-none;
+}
+
+/* Form Styles */
+.form {
+  @apply p-4 bg-white rounded shadow-md space-y-4;
+}

@@ -7,7 +7,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
   // Enable CORS for frontend
   app.enableCors({
-    origin: 'http://localhost:3000', // Adjust to match your frontend URL
+    origin: 'https://stack-notes-q9qf.vercel.app', // Adjust to match your frontend URL
     methods: 'GET,POST,PUT,DELETE',
     allowedHeaders: 'Content-Type,Authorization',
   });
